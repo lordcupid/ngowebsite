@@ -236,20 +236,80 @@ gap: 13px;
 /* Impact section */
 
 .our-impact{
+    background-color: #4a8309;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* padding: 64Px; */
+    padding-top: 64px;
+    padding-bottom: 64px;
+   
+
+.impact-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: start;
+     gap: 80px;
 }
+
+}
+.impact-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: black;
+
+
+}
+
+.impact-left-title h5{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: black;
+    margin-bottom: 24px;
+
+}
+.impact-left-desc{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    color: black;
+    margin-bottom: 24px;
+
+}
+
+
 .impact-stat{
+    
     display: flex;   
-    justify-content: space-between;                                                                                                                
+    justify-content: space-between;
+                                                                                                                
+
+}
+.impact-startcard {
+    margin-bottom: 64px;
+    margin-top: 64px;
+
+}
+.impact-startcard h5{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: black;
+    margin-bottom: 24px;
+
 
 }
 
 
 .donate-cta{
+    display: flex;
+    justify-content: space-between;
     background-color: #5b9f0c;
-    border-radius: 16px;
-    padding: 16px 16px;
+    border-radius: 8px;
+    padding: 64px 64px;
 }
 
 .donate-cta-heading h5{
@@ -262,8 +322,27 @@ gap: 13px;
 .get-involved{
     display: flex;
     justify-content: space-between;
+    padding: 120px 120px;
+}
+.stories-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
 }
 
+.stories-heading h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+
+
+
+}
+
+.stories-heading p{
+    font-size: 16px;
+}
 .stories-cards{
     display: flex;
     justify-content: space-between;
@@ -277,7 +356,14 @@ gap: 13px;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    padding: 64px;
+    border-bottom: 1px solid gray;
  
+}
+
+.partners-heading h3{
+    font-size: 14px;
+    margin-bottom: 48px;
 }
 
 .partners-logos{
@@ -296,6 +382,13 @@ gap: 13px;
     justify-content: space-between;
 }
 
-/* .social-follows{
-    display: fl;
-} */
+.footer-contents{
+    padding: 48px 64px;
+    border-bottom: 1px solid grey;
+}
+
+.sub-footer{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
